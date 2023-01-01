@@ -12,9 +12,9 @@ void main() {
    * a type which can be a String or null (where String only allows 
    * String and can never be null).
    * 
-   * By doing ! you are telling Dart that you are sure the value is 
-   * not null and the analyzer should just accept the value as if it 
-   * is never null.
+   * By adding '!' to end of readLineSync function you are telling Dart 
+   * that you are sure the value is not null and the analyzer should 
+   * just accept the value as if it is never null.
    */
 
   var numberOne = double.parse(stdin.readLineSync()!);
